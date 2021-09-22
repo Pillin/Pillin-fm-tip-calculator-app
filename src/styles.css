@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,500;0,700&display=swap");
+
+html,
+body,
+body .App {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  font-family: "Space Mono";
+  display: flex;
+  flex-direction: column;
+}
+
+*,
+*::before,
+*::after {
+  z-index: 1;
+  box-sizing: border-box;
+}
